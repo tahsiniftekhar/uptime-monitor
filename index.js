@@ -6,10 +6,6 @@ const data = require('./lib/data')
 // app object - module scaffolding
 const app = {}
 
-// testing file system
-data.delete('', 'newFile', (err) => {
-    console.log(err)
-})
 
 // configuration
 app.config = {
